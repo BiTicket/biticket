@@ -9,8 +9,7 @@
 
 **Github:** [https://github.com/BiTicket/BiTicket](https://github.com/BiTicket/BiTicket)  
 **URL:** [confirm](confirm))  
-**Track:** XCM integration  
-**Sponsored Challenge:** Moonbeam, Build a connected contract with Moonbeam
+**Track:** 
 
 Introduction
 
