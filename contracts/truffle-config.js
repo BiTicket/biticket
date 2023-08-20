@@ -75,7 +75,7 @@ module.exports = {
       provider: () => {
         return new HDWalletProvider(
           process.env.MNEMONIC,
-          `https://rpc.goerli.linea.build/`,
+          `https://linea-goerli.infura.io/v3/${process.env.INFURA_API_KEY}`,
         );
       },
       verify: {
