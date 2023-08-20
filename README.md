@@ -147,41 +147,17 @@ Organizers will also have the ability to award medals to users who attended thei
 
 In summary, Biticket will provide event organizers with a comprehensive profile with options to create, manage, and promote their events, as well as a clear view of sales, event history, and the ability to reward attendees in various ways using their wallet address.
 
-![](Aspose.Words.cec7eac9-9c4b-4fba-9788-6b5b3dc5ed3b.003.png)
-
-Cross chain integration using Axelar to connect with EVM compatible chains
-
-**Improved User Experience using ERP - 4337 Account Abstraction**
-
-By doing this integration we are applying to the **Moonbeam crosschain Sponsored Challenge.**
-
-Biticket successfully integrated Account Abstraction, resulting in a host of benefits in terms of functionality and efficiency. Account Abstraction, a feature available in certain blockchain platforms, allowed for the separation of the account concept from the smart contract concept, revolutionizing Biticket's operations.
-
-Following the seamless integration of Account Abstraction, Biticket experienced significant improvements in user interaction with the platform:
-
-Simplified Transactions: Users could now interact with Biticket without the need for specific cryptocurrencies to pay transaction fees. Instead, they conducted transactions using traditional currencies or any other form of value accepted on the platform, streamlining the entire process.
-
-Enhanced Privacy: Account Abstraction heightened privacy levels by concealing certain transaction details on the blockchain. Users could now keep their financial information more confidential, ensuring a secure and private experience on the platform.
-
-Empowered Smart Contracts: The integration of Account Abstraction empowered Biticket to develop more flexible and powerful smart contracts. These contracts directly interacted with external accounts and accessed off-chain information, opening up new possibilities and functionalities for the platform.
-
-Improved Interoperability: Account Abstraction facilitated smoother interactions between Biticket and other blockchain platforms and smart contracts. This newfound interoperability made it easier to integrate with external service providers, payment systems, or any other protocol based on smart contracts, enhancing connectivity.
-
-The successful integration of Account Abstraction marked a significant milestone for Biticket. The platform experienced greater flexibility, heightened privacy measures, and seamless interactions with external blockchain platforms. The user experience was vastly improved, and transactions and contracts were managed more efficiently than ever before. This achievement solidified Biticket's position as a cutting-edge blockchain platform, paving the way for continued growth and success in the cryptocurrency industry.
-
-Smart Contracts
+## Smart Contracts ##
 
 **_Testing and Deployment Instructions_**
 
-| <p>1\. Go to the smart-contracts folder: cd contracts</p><p>2\. Install packages with npm i (or your package manager)</p><p>3\. Test contracts compile: npx hardhat compile</p><p>4\. Check contract size: npx hardhat size-contracts</p><p>5\. Run tests: npx hardhat test</p><p>6\. Copy .env.sample into .env and set your variables</p><p>Use contracts/, tests/ and scripts/ to build your code.</p><p>Deploy on testnet: </p><p>`	`npx hardhat run scripts/deploy.ts --network moonbase</p><p>Deploy Entrypoint on testnet: </p><p>`	`npx hardhat run scripts/deploy-entrypoint.ts --network mumbai</p><p>or</p><p>`	`npx hardhat run scripts/deploy-entrypoint.ts --network bsc</p><p></p> |
+| <p>1\. Go to the contracts folder: cd contracts</p><p>2\. Install packages with npm i (or your package manager)</p><p>3\. Test contracts compile: truffle compile</p><p>4\. Run tests: truffle test</p><p>5\. Copy .env.sample into .env and set your variables</p><p>Use contracts/, tests/ and scripts/ to build your code.</p><p>Deploy on testnet: </p><p>`	`truffle migrate --network linea</p><p></p> |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 Tech Stack
 
-- EVM Blockchains: Moonbeam/Polygon/BSC
-- Hardhat
-- Typescript
-- EthersJS
+- EVM Blockchain: Linea Testnet
+- Truffle
 - Vercel
 - Docker
 
